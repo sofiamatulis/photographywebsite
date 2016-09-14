@@ -1,0 +1,50 @@
+
+
+body {
+  text-shadow: 1px 1px black;
+  color:black;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    text-align:right;
+    font-size: 40px;
+    
+}
+
+html { 
+  background: 
+  url("lightphotography.jpg") no-repeat,
+  url("http://nebula.wsimg.com/3a3050e8eb9e08ec13b7d051124fce35?AccessKeyId=89D0A677C96BB1B57655&disposition=0&alloworigin=1")no-repeat,
+  url("http://nebula.wsimg.com/058b7c8106609aad6f0e57439b6f40cf?AccessKeyId=89D0A677C96BB1B57655&disposition=0&alloworigin=1")no-repeat,
+  url("https://scontent-yyz1-1.xx.fbcdn.net/t31.0-8/10515198_495943247219097_6071350657989304340_o.jpg")no-repeat,
+  url(" http://nebula.wsimg.com/aaabecd600693444640c655548fcdbbd?AccessKeyId=89D0A677C96BB1B57655&disposition=0&alloworigin=1")no-repeat;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   position: absolute;
+
+      top: 100%;
+
+      width: 100%;
+
+      height: 200px;
+}
+
+
+
+ 
+
+p {
+  color: black;
+  font-size: 24px;
+    text-align:right;
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+
+}
+
+div.testimonials {
+    color: black;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+} 

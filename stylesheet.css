@@ -1,0 +1,43 @@
+ul li {
+  font-size: 24px;
+  color:white;
+  font-family:Cursive;
+  text-align:center;
+
+}
+
+ul {
+  font-family: Cursive;
+  color:white;
+    text-align:center;
+    font-size: 24px;
+
+}
+
+
+body {
+  text-shadow: 2px 2px black;
+  color:white;
+  font-family:Cursive;
+    text-align:center;
+    font-size: 40px;
+
+     background: -webkit-linear-gradient(red, yellow);
+   background-repeat: repeat-x;
+   border-style:dotted;
+   font-style: oblique;
+
+}
+
+
+p {
+  color: white;
+  font-size: 24px;
+    text-align:center;
+
+}
+
+div {
+ -webkit-transform: rotate(20deg)
+
+}

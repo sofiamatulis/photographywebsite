@@ -1,0 +1,210 @@
+/* Typography and Type Color*/
+h1, h2, h3, h4 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  margin: 0;
+  color: #333333;
+}
+body, p, a, li {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #333333;
+}
+a {
+  text-decoration: none;
+  transition: 300ms;
+}
+a:hover, a.light:hover, a:active, a.light:active {
+  color: rgb(252, 217, 153);
+}
+a.light {
+  color: #fff;
+  transition: 300ms;
+}
+h1 {
+  font-size: 150px;
+  line-height: 150px;
+  margin-bottom: 30px;
+  text-shadow: 4px 4px #fff;
+}
+h2 {
+  font-size: 70px;
+  line-height: 75px;
+  margin-bottom: 30px;
+  text-shadow: 4px 4px #fff;
+}
+h3 {
+  font-size: 50px;
+  line-height: 55px;
+  margin-bottom: 15px;
+  text-shadow: 3px 3px #fff;
+}
+h4 {
+  font-size: 28px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px #fff;
+}
+
+/* Default Colors */
+body {
+  background-color: #ffffff;
+  margin: 0;
+}
+
+/* Main Content Styling */
+.inner-content {
+  max-width: 1080px;
+  margin: auto;
+}
+.homepage-panel {
+  min-height: 100vh;
+}
+
+/* Top panel */
+.top-panel {
+  background: url("logo.jpg") no-repeat #000 center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-opacity: 0.5;
+  height: 100vh;
+}
+.top-panel-text {
+  padding-top: 20vh;
+  text-align: center;
+}
+
+/* Navigation */
+.navigation-wrapper {
+  width: 100%;
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+}
+.navigation {
+  padding: 0;
+  list-style: none;
+}
+.navigation>li {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 7px 15px;
+  color: #fff;
+}
+.navigation>li a {
+  color: #fff;
+}
+.navigation>li.right {
+  float: right;
+}
+
+
+
+
+.parallax_section{
+  height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 100% auto;
+    position:relative;
+      scroll-behavior: smooth;
+
+}
+
+
+
+
+
+
+
+.parallax_image_third{
+   background-image: url("http://nebula.wsimg.com/aaabecd600693444640c655548fcdbbd?AccessKeyId=89D0A677C96BB1B57655&disposition=0&alloworigin=1");
+
+
+}
+
+
+.parallax_image_fourth{
+   background-image: url("https://scontent-yyz1-1.xx.fbcdn.net/t31.0-8/10515198_495943247219097_6071350657989304340_o.jpg");
+
+
+}
+
+.parallax_image_fifth{
+   background-image: url("https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/10421491_549755781837843_1720595375157854988_n.jpg?oh=57e0256414f269f9cd1b9ab2590e565c&oe=582DAD99");
+
+
+}
+
+
+.parallax_image_sixth{
+   background-image: url("https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/10001378_426113650868724_1520768930_n.png?oh=dcac47209fc5772d560eeaf1ba99acac&oe=58348D88");
+
+
+}
+
+
+.parallax_image_seventh{
+   background-image: url("http://nebula.wsimg.com/058b7c8106609aad6f0e57439b6f40cf?AccessKeyId=89D0A677C96BB1B57655&disposition=0&alloworigin=1");
+
+
+}
+
+
+
+.parallax_image_eight{
+   background-image: url("http://nebula.wsimg.com/1b75c74086b4256f1f04d0cbfd5fa7d4?AccessKeyId=89D0A677C96BB1B57655&disposition=0&alloworigin=1");
+
+
+}
+
+
+.parallax_image_ninth{
+   background-image: url("http://nebula.wsimg.com/2a49ee46babea2ddd0b3df8431448ef7?AccessKeyId=89D0A677C96BB1B57655&disposition=0&alloworigin=1");
+
+
+
+}
+
+
+.parallax_image_tenth{
+   background-image: url("http://nebula.wsimg.com/d87fe48333e2cdef12e2c938a3fc5cf4?AccessKeyId=89D0A677C96BB1B57655&disposition=0&alloworigin=1");
+
+
+
+}
+
+
+
+.parallax_image_eleventh{
+   background-image: url("http://nebula.wsimg.com/6e72d3068418939f3cf7f2c70e6ba4e3?AccessKeyId=89D0A677C96BB1B57655&disposition=0&alloworigin=1");
+
+
+
+}
+
+
+.parallax_image_twelveth{
+   background-image: url("http://nebula.wsimg.com/953c39122c141dd88ffa33cf387bb8c0?AccessKeyId=89D0A677C96BB1B57655&disposition=0&alloworigin=1");
+
+
+
+}
+
+
+.parallax_image_thirteenth{
+   background-image: url("https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/12039511_722550351225051_142188991999946976_n.jpg?oh=0ed399511930b7dc2883888a873c6c97&oe=581AC1CF");
+
+
+
+}
+
+.parallax_image_banana{
+   background-image: url("http://nebula.wsimg.com/3a3050e8eb9e08ec13b7d051124fce35?AccessKeyId=89D0A677C96BB1B57655&disposition=0&alloworigin=1");
+
+
+
+}
